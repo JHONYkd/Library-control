@@ -1,9 +1,0 @@
-{
-  "name": "library-control-cloudflare",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "npm --prefix library-frontend ci && npm --prefix library-frontend run build",
-    "deploy": "npx wrangler deploy"
-  }
-}
